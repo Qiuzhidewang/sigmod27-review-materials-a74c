@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+# Frozen run logs are part of the recorded input hashes.
+!runs/**/*.log
+reproduced/
+
+# Rebuildable model caches and local credentials
+fit_cache/
+*.pickle
+*.pem
+*.key
+
+# Restored frozen records (distributed as gzip files)
+/runs/ecsa-conservative-20260929/prepared.json
+/runs/ecsa-evidence-stress-20260930-v1/prepared.json
+/runs/ecsa-evidence-stress-full660-20260930-v1/new_responses.jsonl
+/runs/ecsa-evidence-stress-full660-20260930-v1/predictions.json
+/runs/ecsa-evidence-stress-full660-20260930-v1/prepared.json
+/runs/ecsa-full660-20260929/prepared.json
+/runs/parameter-sensitivity-20260930-v1/predictions.json
+/runs/parameter-sensitivity-20260930-v1/prepared.json

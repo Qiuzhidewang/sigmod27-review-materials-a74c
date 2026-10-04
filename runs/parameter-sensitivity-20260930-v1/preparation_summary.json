@@ -1,0 +1,18 @@
+{
+  "protocol_sha256": "bb2e0b1d5c78b10ffb0c9c0006ee421717ac604923c15308853432d174c9c8a1",
+  "labels": [
+    "group_by",
+    "implicit_conversion",
+    "missing_index",
+    "order_by",
+    "query_whole_table",
+    "query_with_too_much_join",
+    "record_lock"
+  ],
+  "model_fits": 30,
+  "historical_unique_inputs": 771,
+  "analytical_unique_singletons": 658,
+  "logical_cases": 14520,
+  "unique_inputs": 6369,
+  "new_model_calls_planned": 4940
+}

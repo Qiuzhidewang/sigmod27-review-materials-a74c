@@ -1,0 +1,25 @@
+{
+  "completed_utc": "2026-09-30T11:19:47.238551+00:00",
+  "status": "complete",
+  "files_sha256": {
+    "README_实验设计.md": "0eb78acb851a9a23f07db343abaa2efc9e109de2738eef44e5b31064fdd7231d",
+    "RESULTS_实验结果.md": "ed27245e5527278ce8c596085e8a206c0e7118c9c37e6d67f8bebc544671924a",
+    "descriptive_case_changes.json": "b5091636028476ccf2b39302401ed6f6a46e5da7cddefdbabdcb76d33ee7973d",
+    "independent_audit.json": "7db5c7ed8c913e441ba0b41e0b6426088f8980bd16de3c8974cfc58ad13309a9",
+    "llm_configuration.json": "400c672785d7bd862d7f07e2917a201a6f2279a535c9ae613259ea3f9695f24d",
+    "predictions.json": "c9783b6d6d726146108953f22063ab18a947904f75e8d009f1da38858b159ce2",
+    "prepared.json": "be69bf5bb515007f43c5e946076b6498f81a4247eba0ca244a9dae747c9856aa",
+    "primary_responses.jsonl": "ecec30308030c2c6ed3c1dc34a507658bb9e7b65f0ef5aeee8d0effb5986f960",
+    "progress.json": "eebf1625b63d316cf196a7ec88f48718482a715bde745682c905025191ddbc38",
+    "protocol.json": "c9c89afe119a6de062738443b8c49332b9a09d5d0f5e59791346ad9a8e3521a8",
+    "results.json": "5ac2104b2de9905342117d0798ecd0ecf815ebff6ea7ce5bf63461bbadfe255b",
+    "summary.csv": "e99d9ab4eb35d1fd88541c4c220507ad778242f6a83ec41af50a16f8142357d6",
+    "synthetic_guard_checks.json": "7be765eb4e48bb2422d3ce4b25f57174d5ebbd10e4d73ed43fc8f103c9f61420"
+  },
+  "independent_audit": "complete_verified",
+  "analysis_scripts_sha256": {
+    "scripts/run_ecsa_evidence_stress.py": "f30f3995d614d594d14a445b3cec5ed6c77d5056865215889665c1b0533f6454",
+    "scripts/audit_ecsa_evidence_stress.py": "dc5505cb1db2bcf43135632319895be5ff399535dce4d6239516db24688bd474"
+  },
+  "post_run_descriptive_analysis": "descriptive_case_changes.json; no new inference or parameter changes"
+}
